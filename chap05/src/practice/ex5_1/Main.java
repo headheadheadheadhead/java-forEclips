@@ -5,7 +5,7 @@ public class Main {
 		String name = "小倉";
 		int age = 30;
 		double height = 143.5;
-		char animal = '辰';
+		char animal = '亥';
 		System.out.println("私の名前は" + name + "です" + "歳は" + age + 
 				"です"  + "\n身長は" + height + "です" + "十二支は" + animal + "です");
 	}
