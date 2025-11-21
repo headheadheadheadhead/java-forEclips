@@ -11,5 +11,8 @@ public class Matango {
 		("お化けキノコ" + this.suffix + "は逃げ出した");
 	}
 
-
+	public Matango(char sf) {
+		this.hp = 50;
+		this.suffix = sf;
+	}
 }

@@ -1,0 +1,21 @@
+package main;
+
+public class Thief2 {
+	String name;
+	int hp = 100;
+	int mp;
+
+	static {
+		System.out.println("static!!");
+	}
+	{
+		this.mp = 50;
+		System.out.println("mp=50");
+	}
+
+	public Thief2() {
+		this.name = "シーフ";
+		System.out.println("コンストラクタ");
+	}
+
+}
