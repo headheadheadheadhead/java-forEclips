@@ -1,4 +1,4 @@
-package main;
+package ex_10;
 
 public class Hero {
 	String name = "ミナト";
@@ -23,7 +23,6 @@ public class Hero {
 	}
 
 	//以下、逃げる
-
 	public void run() {
 		System.out.println(this.name + "は逃げ出した！");
 	}

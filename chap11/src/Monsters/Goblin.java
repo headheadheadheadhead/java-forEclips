@@ -1,0 +1,18 @@
+package Monsters;
+
+public class Goblin extends WalkingMonster {
+
+	public Goblin(char suffix, int hp) {
+		super(suffix, hp);
+	}
+
+	@Override
+	public String getName() {
+		return "ゴブリン" + suffix;
+	}
+	@Override
+	public void attack(Character c) {
+		System.out.println(getName()+ "は" +c.name + "をナイフで斬りつけた！");
+		c.hp -= 10;
+	}
+}
