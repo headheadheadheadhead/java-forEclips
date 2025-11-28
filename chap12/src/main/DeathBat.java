@@ -1,4 +1,4 @@
-package Monsters;
+package main;
 
 public class DeathBat extends FlyingMonster {
 
@@ -8,7 +8,7 @@ public class DeathBat extends FlyingMonster {
 
 	@Override
 	public void run() {
-		System.out.println(this.name + "は羽ばたいて逃げ出した");
+		System.out.println(getName() + "は羽ばたいて逃げ出した。");
 	}
 
 	@Override
